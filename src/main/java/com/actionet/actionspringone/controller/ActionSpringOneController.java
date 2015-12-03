@@ -13,11 +13,11 @@ public class ActionSpringOneController {
 	   return "index";
    }
    @RequestMapping(value = "/gautam", method = RequestMethod.GET)
-   public String index() {
+   public String gautamKolan() {
 	   return "gautam_kolan";
    }
    @RequestMapping(value = "/rohini_kolan", method = RequestMethod.GET)
-   public String index() {
+   public String rohiniKolan() {
 	   return "rohini_kolan";
    }
    
